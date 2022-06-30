@@ -1,0 +1,15 @@
+<p>contact-us works!</p>
+<form #ContactForm="ngForm" (ngSubmit)="loginUser(ContactForm)">
+    
+    <input type="text" placeholder="username" name="username" ngModel>
+    <br><br>
+    <input type="text" placeholder="password" name="password" ngModel>
+<br><br>
+<button>Login</button>
+</form>
+
+<form>
+    <input type="text" placeholder="password" name="title" [(ngModel)]="title">
+    {{title}}
+    <br><br>
+</form>
